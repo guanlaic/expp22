@@ -60,6 +60,15 @@ void handleRoot(AsyncWebServerRequest*request){
 
 void handleNotFound(AsyncWebServerRequest*request){
   requesst -> send(404,"test/plain","404 not found")
+
+}
+void moveCat(int valueInt)
+{
+  println("got value as %d\n" valueInt);
+  switch(valueInt)
+  {
+    cd ..
+  }
 }
 void setup() {
   setUpPinModes();
